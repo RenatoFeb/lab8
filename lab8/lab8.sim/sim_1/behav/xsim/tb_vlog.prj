@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab8.srcs/sources_1/new/angen.v" \
+"../../../../lab8.srcs/sources_1/new/bcd7.v" \
+"../../../../lab8.srcs/sources_1/new/bcdSelector.v" \
+"../../../../lab8.srcs/sources_1/new/binToBcd.v" \
+"../../../../lab8.srcs/sources_1/new/top.v" \
+"../../../../lab8.srcs/sources_1/new/upCount.v" \
+"../../../../lab8.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
